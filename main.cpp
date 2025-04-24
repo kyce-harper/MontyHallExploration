@@ -17,7 +17,7 @@ struct RoundResult {
 
 RoundResult simulateMontyHallRound(int roundNumber){
     // Setup The 3 doors: 0 , 1 , 2
-    std::vector<int> doors{1,2,3};
+    std::vector<int> doors{0,1,2};
     
     // Randomly choose the Prize Door and Players Choice
     int prizeDoor = rand() % 3;
